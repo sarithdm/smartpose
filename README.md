@@ -1,5 +1,6 @@
 # smartpose
-# Running the Project
+
+## Running the Project
 
 Follow these steps to run the project:
 
@@ -19,9 +20,9 @@ Follow these steps to run the project:
 4. **Create a .dockerignore File**
    - Create a `.dockerignore` file in the root of your project directory. Add the necessary entries to ignore files that shouldn't be included in the Docker image. Get contents from the file [.dockerignore](https://github.com/sarithdm/smartpose/blob/main/.dockerignore):
 
-    ```.dockerignore
+     ```text
      # .dockerignore contents from the file
-    ```
+     ```
 
 5. **Build Docker Image**
    - In your terminal, navigate to the project folder and run the following command to build the Docker image:
@@ -41,7 +42,9 @@ Follow these steps to run the project:
 
    - This will start the container and allow you to interact with the project.
 
-# Setting Up CVAT for Image Annotation
+---
+
+## Setting Up CVAT for Image Annotation
 
 Follow these steps to set up CVAT for annotating images:
 
@@ -88,5 +91,3 @@ Follow these steps to set up CVAT for annotating images:
 7. **Annotate Images and Manage Files**
    - After logging in, you can start annotating your images in CVAT.
    - Ensure that your images and labels are stored in the respective folders in the **Google Drive Link** shared with you.
-
-
