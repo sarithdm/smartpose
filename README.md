@@ -19,7 +19,7 @@ Follow these steps to run the project:
 4. **Create a .dockerignore File**
    - Create a `.dockerignore` file in the root of your project directory. Add the necessary entries to ignore files that shouldn't be included in the Docker image. Get contents from the file [.dockerignore](https://github.com/sarithdm/smartpose/blob/main/.dockerignore):
 
-   ```.dockerignore
+    ```.dockerignore
      # .dockerignore contents from the file
      ```
 
