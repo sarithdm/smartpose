@@ -10,14 +10,14 @@ Follow these steps to run the project:
    - Ensure that Docker is running on your system. If Docker is not installed, follow the [Docker installation guide](https://docs.docker.com/get-docker/) to install it.
 
 3. **Create a Dockerfile**
-   - In your project folder, create a file named `Dockerfile` and add the following contents from the [smartpose GitHub repository](https://github.com/sarithdm/smartpose):
+   - In your project folder, create a file named `Dockerfile` and add the following contents from the file [Dockerfile](https://github.com/sarithdm/smartpose/blob/main/Dockerfile):
 
      ```dockerfile
-     # Dockerfile contents from the repository
+     # Dockerfile contents from the file
      ```
 
 4. **Create a .dockerignore File**
-   - Create a `.dockerignore` file in the root of your project directory. Add the necessary entries to ignore files that shouldn't be included in the Docker image. For example:
+   - Create a `.dockerignore` file in the root of your project directory. Add the necessary entries to ignore files that shouldn't be included in the Docker image. Get contents from the file [.dockerignore](https://github.com/sarithdm/smartpose/blob/main/.dockerignore):
 
      ```
      .git
