@@ -21,7 +21,7 @@ Follow these steps to run the project:
 
     ```.dockerignore
      # .dockerignore contents from the file
-     ```
+    ```
 
 5. **Build Docker Image**
    - In your terminal, navigate to the project folder and run the following command to build the Docker image:
