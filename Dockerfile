@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     libsm6 \
     libxext6 \
     libxrender-dev \
+    libgl1-mesa-glx \ 
     wget \
     unzip \
     && rm -rf /var/lib/apt/lists/*
@@ -31,4 +32,4 @@ COPY . /app
 EXPOSE 8000
 
 # Command to run the training (adjust path for coco-pose.yaml)
-CMD ["yolo", "train", "data=coco-pose.yaml", "--device", "cpu"]
+CMD ["yolo", "train", "data=coco-pose.yaml", "device=cpu"]
